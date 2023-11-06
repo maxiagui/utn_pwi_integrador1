@@ -1,0 +1,35 @@
+
+.card-us {
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    width: 268px;
+    margin: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 30px 5px 30px 5px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card-us img {
+    max-width: 100%;
+    height: auto;
+}
+.us-box{
+    background-color: var(--primary-color);
+    height: 74%;
+    border-radius: 1px 1px 30px 5px;
+    align-self: center;
+    position: absolute;
+    width: 100%;
+    /* border: 2px solid #eed7319e; */
+    bottom: 0px;
+}
+.card-us p{
+    font-size: 16px;
+    padding: 0px 8px 3px 8px;
+}
