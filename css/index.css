@@ -67,8 +67,8 @@ width: 100%;
 }
 .links-container a{
     display: block;
-    padding: 25px 15px 0px 25px;
-    text-align: right;
+    padding: 20px;
+    text-align: center;
     /* text-decoration: none; */
     color: #694e25;
     background: linear-gradient(to bottom right, #ffbc57, #ffffff);
