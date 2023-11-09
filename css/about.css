@@ -20,7 +20,7 @@ section p {
     height: auto;
 }
 .us-box{
-    background-color: var(--primary-color);
+    background-color: var(--terciary-color);
     height: 74%;
     border-radius: 1px 1px 30px 5px;
     align-self: center;
@@ -30,6 +30,7 @@ section p {
     bottom: 0px;
 }
 .card-us p{
+
     font-size: 16px;
     padding: 0px 8px 3px 8px;
 }

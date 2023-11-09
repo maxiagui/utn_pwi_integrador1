@@ -1,7 +1,15 @@
 :root {
-    --primary-color: #ffb94f;
+    --primary-color: #e269e3;
+    --secondary-color: #6e0f6e;
+    --terciary-color: #9f51a0;
+    --fontColor: #f7e6f7;
+    --fontColorInv: #350835;
+    --bodySecondColor: #c975c9;
+    
+    
+    /* --primary-color: #ffb94f;
     --secondary-color: #694e25;
-    --terciary-color: #d18d26;
+    --terciary-color: #d18d26; */
 }
 *{
     padding: 0;
@@ -17,5 +25,5 @@ p {
     font-size: 18px;
 }
 body{
-    background: linear-gradient(180deg, #ffe6c1 0%, rgb(255, 193, 100) 100%);
+    background: linear-gradient(180deg, var(--fontColor) 0%,var(--bodySecondColor));
 }

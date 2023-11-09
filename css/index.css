@@ -5,7 +5,7 @@ header{
     z-index: 999;
 }
 footer{
-    background-color: var(--terciary-color);
+    background-color: var(--secondary-color);
 }
 section{
     display: flex;
@@ -34,11 +34,11 @@ width: 100%;
     padding: 15px;
 }
 .location-box{
-    border: 2px solid #070707;
+    border: 2px solid var(--fontColorInv);
     padding: 10px;
     margin: 20px;
     background-color: var(--secondary-color);
-    color: #fffaf2;
+    color: var(--fontColor);
     width: 40%;
     height: fit-content;
 }
@@ -70,9 +70,9 @@ width: 100%;
     padding: 20px;
     text-align: center;
     /* text-decoration: none; */
-    color: #694e25;
-    background: linear-gradient(to bottom right, #ffbc57, #ffffff);
-    border: 2px solid #694e25;
+    color: var(--fontColorInv);
+    background: linear-gradient(to bottom right, var(--terciary-color), var(--fontColor));
+    border: 2px solid var(--fontColorInv);
     border-radius: 20px;
 }
 
@@ -91,6 +91,7 @@ width: 100%;
 .title-container{
     width: 100%;
     text-align: center;
+    padding-left: 15px;
 }
 
 .menu-icon {
@@ -184,7 +185,10 @@ footer div a{
     margin-left: 8%;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: rgb(3, 3, 3);
+    color: var(--fontColor);
+}
+.footer-container h6{
+    font-weight: lighter;
 }
 
 .whatsapp-container {

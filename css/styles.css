@@ -3,3 +3,6 @@
 @import url(./contact.css);
 @import url(./products.css);
 @import url(./about.css);
+p{
+    color: var(--fontColorInv)
+}
